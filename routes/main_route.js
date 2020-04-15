@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const controller = require('../controller/default');
+const controller = require('../controller/main');
 
 router.post('/', controller.estimateJson);
 router.post('/json', controller.estimateJson);

@@ -7,7 +7,7 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
-const defaultRoute = require('./routes/default_route');
+const defaultRoute = require('./routes/main_route');
 
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
